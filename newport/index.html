@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head> 
+        <meta charset="UTF-8">
+        <title> Scott DiBenedetto </title>
+        <link rel="stylesheet" href="index.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        
+    <div id="navigationbar">
+        <a id="home" class="navheader" href="#home">HOME</a>
+        <a id="about" class="navheader" href="#about">ABOUT</a>
+        <a id="contact" class="navheader" onclick="openForm()">CONTACT</a>
+        <a id="github" class="navheader" href="https://github.com/scooterd22">GITHUB</a>
+        <a id="linked-in" class="navheader" href="https://www.linkedin.com/in/scott-dibenedetto-444466204/">LINKED-IN</a>
+    </div>
+
+
+
+
+        <div id="home">
+            <!-- <video autoplay muted loop id="Typing_Video">
+                <source src="./video/b1.mp4" type="video/mp4">
+               display message if video falls to run 
+                Your browser does not support HTML5 video.
+            </video> -->
+        </div>
+
+        <!-- video text -->
+        <div class="video_text">
+            <h1 class="white-text" id="about"> Scott DiBenedetto's Portfolio </h1>
+            <strong>
+                <div class="white-intro">
+                <p class="center">
+
+                    I am a software developer who has a passion for mobile app development <br> and spending time with my two bunnies, Leela and Trouble!
+                <br>
+                <br>
+                <br>
+                </p>
+                    </p>
+                </strong>
+            </div>
+        </div>
+
+            <!-- about section -->
+<div id="wrapping-about-slideshow">
+    <div id="slideshow"> 
+
+        <img class="mySlides" src="./photos/bunnies.jpg">
+        <img class="mySlides" src="./photos/llama.jpg">
+        <img class="mySlides" src="./photos/comedy.jpg">
+    </div>
+
+
+    <div id="about-section">
+        <a id="about"></a>
+        <h1> ABOUT</h1>
+        <p>  I am currently enrolled in <a id ="link-color" href="https://www.learncodinganywhere.com">The Tech Academy</a>’s Mobile App Developer Boot Camp,
+            and being trained in the following web and programming languages: HTML, CSS, JavaScript, SQL, and Java. 
+        </p>
+    </div>
+
+
+</div>
+
+<div id="github-section-wrap">
+
+        <div id="github-content">
+        <h1 id="github">GITHUB</h1>
+        <p> Here you can see my projects on <a id ="link-color" href="https://github.com/scooterd22"> Github!</a>
+        <br>I recently became familiar with Java and learned technical skills in Java that will help me be a better developer. <br>
+        
+         
+    </div>
+
+    <div id="github-logo">
+        <img src="./photos/githublogo.png">
+    </div>
+</div>
+
+
+<!-- contact form -->
+<button class="open-button" onclick="openForm()">Contact Me!</button>
+
+<!-- The form -->
+<div class="form-popup" id="myForm">
+  <form class="form-container" action="https://formspree.io/f/moqozjkl" method="POST">
+    <h1>Contact</h1>
+
+    <label for="fname"><b>First Name</b></label>
+    <input type="text" placeholder="Enter First Name" name="fname" required>
+
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" required> 
+
+    
+    <label for="message"><b>Message</b></label>
+    <input type="text" placeholder="Write Your Message Here" name="psw" required>
+
+    <button type="submit" class="btn">Submit</button>
+    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+  </form>
+</div>
+
+
+
+
+
+
+
+
+
+
+<br>
+<br>
+ <footer>
+    <p>
+        <p class="footerwords"> &copy Scott's Website</p>
+        <br>
+    </p> 
+
+    <script src="index.js" defer></script>
+</body>
+</html>
